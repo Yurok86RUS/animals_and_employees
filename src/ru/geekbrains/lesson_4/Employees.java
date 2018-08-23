@@ -1,12 +1,9 @@
 package ru.geekbrains.lesson_4;
 
 public class Employees {
-    String fullName;
-    String position;
-    String email;
-    int telephone;
+    String fullName, position, email;
+    int telephone, age;
     double salary;
-    int age;
 
     public Employees(String _fullName, String _position, String _email, int _telephone, double _salary, int _age){
 
