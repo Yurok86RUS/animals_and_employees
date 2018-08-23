@@ -19,14 +19,15 @@ public class Main {
             }
         }
 
-        Cat cat = new Cat("KOT");
-        Dog dog = new Dog("DOG");
+        Cat cat = new Cat("");
+        Dog dog = new Dog("");
 
-        cat.run(120);
-        dog.swim(8);
-        cat.swim(5);
-        cat.jump(1);
-        dog.run(205);
-        dog.jump(0.3);
+            cat.Jump(2);
+            cat.Run(185);
+            cat.Swim(3);
+            dog.Jump(2);
+            dog.Run(185);
+            dog.Swim(3);
+
     }
 }
