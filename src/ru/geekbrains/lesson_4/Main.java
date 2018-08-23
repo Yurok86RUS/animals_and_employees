@@ -18,5 +18,15 @@ public class Main {
                 persArray[i].getEmployees();
             }
         }
+
+        Cat cat = new Cat("KOT");
+        Dog dog = new Dog("DOG");
+
+        cat.run(120);
+        dog.swim(8);
+        cat.swim(5);
+        cat.jump(1);
+        dog.run(205);
+        dog.jump(0.3);
     }
 }
